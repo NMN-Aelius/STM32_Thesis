@@ -1,0 +1,4 @@
+#Fri Apr 19 20:09:51 ICT 2024
+expression=HAL_TIM_PWM_PulseFinishedCallback
+org.eclipse.help.ui.localSearch.master=true
+__DEFAULT__=false

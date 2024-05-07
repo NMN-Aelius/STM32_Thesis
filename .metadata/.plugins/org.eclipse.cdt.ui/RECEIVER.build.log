@@ -1,0 +1,10 @@
+15:22:35 **** Incremental Build of configuration Debug for project RECEIVER ****
+make -j16 all 
+arm-none-eabi-size  RECEIVER.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9372	     20	   1724	  11116	   2b6c	RECEIVER.elf
+Finished building: default.size.stdout
+ 
+
+15:22:35 Build Finished. 0 errors, 0 warnings. (took 196ms)
+

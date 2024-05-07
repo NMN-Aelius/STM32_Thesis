@@ -1,0 +1,10 @@
+15:19:57 **** Incremental Build of configuration Debug for project trans_uart ****
+make -j16 all 
+arm-none-eabi-size  trans_uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8048	     20	   1652	   9720	   25f8	trans_uart.elf
+Finished building: default.size.stdout
+ 
+
+15:19:57 Build Finished. 0 errors, 0 warnings. (took 195ms)
+

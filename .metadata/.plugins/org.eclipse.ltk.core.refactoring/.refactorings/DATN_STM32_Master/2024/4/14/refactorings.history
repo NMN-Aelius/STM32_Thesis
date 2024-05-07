@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;DATN_STM32_Master/thu_vien/dat.h&apos; to &apos;nhut.h&apos;" description="Rename resource &apos;dat.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="thu_vien/dat.h" name="nhut.h" stamp="1712304629244" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;DATN_STM32_Master/thu_vien/dat.c&apos; to &apos;nhut.c&apos;" description="Rename resource &apos;dat.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="thu_vien/dat.c" name="nhut.c" stamp="1712304641769" updateReferences="true"/>
+</session>

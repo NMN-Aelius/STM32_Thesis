@@ -1,0 +1,20 @@
+09:46:18 **** Incremental Build of configuration Debug for project STM32_R6_EInterrupt ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "STM32_R6_EInterrupt.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Embedded System\STM_PROJECT\STM32_R6_EInterrupt\STM32F103R6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32_R6_EInterrupt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32_R6_EInterrupt.elf
+ 
+arm-none-eabi-size  STM32_R6_EInterrupt.elf 
+arm-none-eabi-objdump -h -S STM32_R6_EInterrupt.elf  > "STM32_R6_EInterrupt.list"
+   text	   data	    bss	    dec	    hex	filename
+   4884	     20	   1572	   6476	   194c	STM32_R6_EInterrupt.elf
+arm-none-eabi-objcopy  -O ihex STM32_R6_EInterrupt.elf  "STM32_R6_EInterrupt.hex"
+Finished building: default.size.stdout
+ 
+Finished building: STM32_R6_EInterrupt.hex
+Finished building: STM32_R6_EInterrupt.list
+ 
+ 
+
+09:46:19 Build Finished. 0 errors, 0 warnings. (took 547ms)
+

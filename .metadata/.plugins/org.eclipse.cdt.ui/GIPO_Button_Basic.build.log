@@ -1,0 +1,19 @@
+15:50:59 **** Incremental Build of configuration Debug for project GIPO_Button_Basic ****
+make -j16 all 
+arm-none-eabi-gcc -o "GIPO_Button_Basic.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Embedded System\STM_PROJECT\GIPO_Button_Basic\STM32F103R6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="GIPO_Button_Basic.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: GIPO_Button_Basic.elf
+ 
+arm-none-eabi-size  GIPO_Button_Basic.elf 
+arm-none-eabi-objdump -h -S GIPO_Button_Basic.elf  > "GIPO_Button_Basic.list"
+   text	   data	    bss	    dec	    hex	filename
+   4668	     20	   1572	   6260	   1874	GIPO_Button_Basic.elf
+arm-none-eabi-objcopy  -O ihex GIPO_Button_Basic.elf  "GIPO_Button_Basic.hex"
+Finished building: default.size.stdout
+ 
+Finished building: GIPO_Button_Basic.list
+ 
+Finished building: GIPO_Button_Basic.hex
+ 
+
+15:50:59 Build Finished. 0 errors, 0 warnings. (took 448ms)
+

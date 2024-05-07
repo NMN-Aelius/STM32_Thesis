@@ -1,0 +1,6 @@
+00:40:10 **** Build of configuration Debug for project Presentation_TN1_node1 ****
+make -j16 all 
+Command canceled
+
+00:40:10 Build Cancelled. (took 148ms)
+

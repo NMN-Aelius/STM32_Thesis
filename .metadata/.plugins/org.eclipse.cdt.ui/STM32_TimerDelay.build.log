@@ -1,0 +1,10 @@
+00:32:04 **** Incremental Build of configuration Debug for project STM32_TimerDelay ****
+make -j16 all 
+arm-none-eabi-size  STM32_TimerDelay.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7080	     20	   1644	   8744	   2228	STM32_TimerDelay.elf
+Finished building: default.size.stdout
+ 
+
+00:32:04 Build Finished. 0 errors, 0 warnings. (took 196ms)
+

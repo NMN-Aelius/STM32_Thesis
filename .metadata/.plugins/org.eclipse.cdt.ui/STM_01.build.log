@@ -1,0 +1,16 @@
+10:32:10 **** Incremental Build of configuration Debug for project STM_01 ****
+make -j16 all 
+arm-none-eabi-gcc -o "STM_01.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Embedded System\STM_PROJECT\STM_01\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM_01.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM_01.elf
+ 
+arm-none-eabi-size  STM_01.elf 
+arm-none-eabi-objdump -h -S STM_01.elf  > "STM_01.list"
+   text	   data	    bss	    dec	    hex	filename
+   4572	     20	   1572	   6164	   1814	STM_01.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM_01.list
+ 
+
+10:32:11 Build Finished. 0 errors, 0 warnings. (took 400ms)
+

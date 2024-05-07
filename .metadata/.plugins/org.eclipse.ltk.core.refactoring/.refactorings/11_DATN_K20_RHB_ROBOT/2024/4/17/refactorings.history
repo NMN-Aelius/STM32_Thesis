@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;11_DATN_K20_RHB_ROBOT/DATN_K20_MASTER&apos; to &apos;DATN_K20_RHB_ROBOT&apos;" description="Rename resource &apos;DATN_K20_MASTER&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="DATN_K20_MASTER" name="DATN_K20_RHB_ROBOT" stamp="1713676360747" updateReferences="true"/>
+</session>

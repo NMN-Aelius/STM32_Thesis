@@ -1,0 +1,10 @@
+20:07:57 **** Incremental Build of configuration Debug for project STMF407 ****
+make -j16 all 
+arm-none-eabi-size  STMF407.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9704	     20	   1676	  11400	   2c88	STMF407.elf
+Finished building: default.size.stdout
+ 
+
+20:07:57 Build Finished. 0 errors, 0 warnings. (took 196ms)
+

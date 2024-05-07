@@ -1,0 +1,20 @@
+10:50:48 **** Incremental Build of configuration Debug for project STM_01_F103R6 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "STM_01_F103R6.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Embedded System\STM_PROJECT\STM_01_F103R6\STM32F103R6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM_01_F103R6.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM_01_F103R6.elf
+ 
+arm-none-eabi-size  STM_01_F103R6.elf 
+arm-none-eabi-objdump -h -S STM_01_F103R6.elf  > "STM_01_F103R6.list"
+   text	   data	    bss	    dec	    hex	filename
+   4548	     20	   1572	   6140	   17fc	STM_01_F103R6.elf
+arm-none-eabi-objcopy  -O ihex STM_01_F103R6.elf  "STM_01_F103R6.hex"
+Finished building: default.size.stdout
+ 
+Finished building: STM_01_F103R6.hex
+Finished building: STM_01_F103R6.list
+ 
+ 
+
+10:50:49 Build Finished. 0 errors, 0 warnings. (took 548ms)
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\nguye\Documents\Zalo Received Files\Chuong_trinh_do_an_STM_DCK\Chuong_trinh_do_an_STM_DCK"/>
+			<item value="D:\ROBOT_RICLAB\4_Chuong_trinh_do_an_STM_DCK\TEST_BOARD_CONTROL_AND_CAN"/>
+			<item value="D:\Embedded System\STM_PROJECT\STM_ENCODER_STEP"/>
+			<item value="D:\ROBOT_RICLAB\11_DATN_K20_RHB_CODE"/>
+			<item value="D:\ROBOT_RICLAB"/>
+			<item value="C:\Users\nguye\Documents\Zalo Received Files\CAN_Master_F4\CAN_Master_F4"/>
+			<item value="C:\Users\nguye\Documents\Zalo Received Files\CAN_Master_F4"/>
+			<item value="C:\Users\nguye\Documents\Zalo Received Files\STM32"/>
+			<item value="C:\Users\nguye\Desktop\CAN_Slave2"/>
+			<item value="C:\Users\nguye\Desktop\CAN_Slave1"/>
+			<item value="C:\Users\nguye\Downloads\TUT_CAN_LOOPBACK\TUT_CAN_LOOPBACK"/>
+			<item value="D:\Embedded System\STM_PROJECT\TUT_CAN_LOOPBACK"/>
+			<item value="C:\Users\nguye\Downloads\TUT_CAN_LOOPBACK"/>
+			<item value="D:\Embedded System\STM_PROJECT\ToggleLED"/>
+			<item value="C:\Users\nguye\Documents\Zalo Received Files\Chuong_trinh_do_an_STM_DCK"/>
+			<item value="D:\ROBOT_RICLAB\Chuong_trinh_do_an_STM_DCK"/>
+			<item value="D:\ROBOT_RICLAB\STM32"/>
+			<item value="D:\ROBOT_RICLAB\7_Chuong_trinh test_CAN_node"/>
+			<item value="D:\ROBOT_RICLAB\4_Chuong_trinh_do_an_STM_DCK"/>
+		</list>
+	</section>
+</section>

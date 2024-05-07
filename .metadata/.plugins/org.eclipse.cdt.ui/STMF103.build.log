@@ -1,0 +1,10 @@
+19:55:23 **** Incremental Build of configuration Debug for project STMF103 ****
+make -j16 all 
+arm-none-eabi-size  STMF103.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7892	     20	   1668	   9580	   256c	STMF103.elf
+Finished building: default.size.stdout
+ 
+
+19:55:23 Build Finished. 0 errors, 0 warnings. (took 195ms)
+

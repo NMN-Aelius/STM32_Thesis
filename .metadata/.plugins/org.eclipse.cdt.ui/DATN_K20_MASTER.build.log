@@ -1,0 +1,10 @@
+13:58:32 **** Incremental Build of configuration Debug for project DATN_K20_MASTER ****
+make -j16 all 
+arm-none-eabi-gcc -o "DATN_K20_MASTER.elf" @"objects.list"  -l"D:/ROBOT_RICLAB/11_DATN_K20_RHB_ROBOT/DATN_K20_RHB_ROBOT/ThuVien" -mcpu=cortex-m4 -T"D:\ROBOT_RICLAB\11_DATN_K20_RHB_ROBOT\DATN_K20_RHB_ROBOT\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DATN_K20_MASTER.map" -Wl,--gc-sections -static -L"D:\ROBOT_RICLAB\11_DATN_K20_RHB_ROBOT\DATN_K20_RHB_ROBOT\ThuVien" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.14.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld.exe: cannot find -lD:/ROBOT_RICLAB/11_DATN_K20_RHB_ROBOT/DATN_K20_RHB_ROBOT/ThuVien: No such file or directory
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:65: DATN_K20_MASTER.elf] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+
+13:58:32 Build Failed. 2 errors, 0 warnings. (took 297ms)
+

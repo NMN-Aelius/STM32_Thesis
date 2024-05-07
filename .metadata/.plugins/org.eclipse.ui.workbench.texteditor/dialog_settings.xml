@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="count"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="true"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="count"/>
+			<item value="motor2"/>
+			<item value="CAN_Data_Rx"/>
+			<item value="0x001"/>
+			<item value="0x00"/>
+			<item value="xanhd"/>
+			<item value="do"/>
+			<item value="vang"/>
+			<item value="GPIO"/>
+			<item value="flag_enable_send"/>
+			<item value="uart"/>
+			<item value="flag_run"/>
+			<item value="theta1"/>
+			<item value="canfilterconfig"/>
+			<item value="can"/>
+		</list>
+		<list key="replacehistory">
+			<item value="motor1"/>
+			<item value="1"/>
+			<item value="false"/>
+			<item value="flag_stateUart"/>
+			<item value="Theta"/>
+			<item value="data"/>
+			<item value="sumPulse"/>
+			<item value="theta1"/>
+			<item value="BackData"/>
+			<item value="motor"/>
+			<item value="FLAG_RESET"/>
+			<item value="Saved_Data"/>
+			<item value="TX_CAN_MG"/>
+			<item value="RX_CAN_MG"/>
+			<item value="Data_process"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1610"/>
+		<item key="DIALOG_Y_ORIGIN" value="527"/>
+		<item key="DIALOG_WIDTH" value="318"/>
+		<item key="DIALOG_HEIGHT" value="314"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

@@ -1,0 +1,10 @@
+22:53:38 **** Incremental Build of configuration Debug for project TEST_LED_BOARD ****
+make -j16 all 
+arm-none-eabi-size  TEST_LED_BOARD.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11712	     20	   1964	  13696	   3580	TEST_LED_BOARD.elf
+Finished building: default.size.stdout
+ 
+
+22:53:39 Build Finished. 0 errors, 0 warnings. (took 263ms)
+
